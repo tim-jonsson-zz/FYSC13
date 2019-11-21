@@ -1,0 +1,44 @@
+Instructions for computer labs, FYSC13
+
+The codes can be found at:
+	
+	https://github.com/AndrissP/Phonon-labs
+	https://github.com/AndrissP/Bandstructure
+
+Description of the codes can be found in the README file there.
+We use jupyter notebook for the lab. 
+
+A. If you use the computer in H321, download the "ini.bash" file and put it in the folder ~/Downloads. Start the terminal window by Ctrl+Alt+T, run the following line by line:
+
+	cd ~/Downloads
+	chmod u+x ini.bash
+	./ini.bash
+	source ~/.bashrc
+	conda install -p ~/Documents/FYSC13/Phonon-labs -c conda-forge ffmpeg
+	jupyter notebook
+
+
+B. If you want to use your own laptop, you need to install anaconda and several packages.
+B.1 For Windows or macOS system, visit:
+
+	https://www.anaconda.com/distribution/
+
+and download the python 3.7 version. After installation, start anaconda and run the following:
+
+	conda install -c conda-forge ipywidgets
+	conda install -c conda-forge ffmpeg
+
+Then go to the github page and download the codes for the lab. In anaconda, move to the directory where you put the codes and run:
+
+	jupyter notebook
+
+B.2 For Linux system, download the "download.bash" and "launch.bash" files and put them in the folder ~/Downloads. Start the terminal window by Ctrl+Alt+T, run the following line by line:
+
+	cd ~/Downloads
+	chmod u+x download.bash
+	chmod u+x launch.bash
+	./download.bash
+	source ~/.bashrc
+	./launch.bash
+
+C. Have fun!
