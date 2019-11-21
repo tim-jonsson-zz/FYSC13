@@ -14,7 +14,7 @@ A. If you use the computer in H321, download the "ini.bash" file and put it in t
 	chmod u+x ini.bash
 	./ini.bash
 	source ~/.bashrc
-	conda install -p ~/Documents/FYSC13/Phonon-labs -c conda-forge ffmpeg
+	cd ~/Documents/FYSC13
 	jupyter notebook
 
 

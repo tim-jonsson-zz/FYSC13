@@ -15,6 +15,6 @@ cd Phonon-labs
 
 # copy and run the following line by line in the terminal
 # source ~/.bashrc
-# conda install -p ~/Documents/FYSC13/Phonon-labs -c conda-forge ffmpeg
-# conda install -c conda-forge ffmpeg -c local
+## conda install -p ~/Documents/FYSC13/Phonon-labs -c conda-forge ffmpeg
+## conda install -c conda-forge ffmpeg -c local
 # jupyter notebook
